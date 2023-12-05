@@ -7,9 +7,9 @@ class DestinationItem extends Component {
     const {eachDest} = this.props
     const {imgUrl, name} = eachDest
     const jsxElement = (
-      <li>
-        <img src={imgUrl} alt="search icon" />
-        <p>{name}</p>
+      <li className="li-container">
+        <img src={imgUrl} alt={name} className="dest-image" />
+        <p className="dest-name">{name}</p>
       </li>
     )
     return jsxElement
