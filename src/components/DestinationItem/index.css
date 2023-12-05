@@ -1,1 +1,17 @@
 /* Write your CSS here */
+.li-container {
+  list-style-type: none;
+  width: 235px;
+  margin-bottom: 32px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+.dest-image {
+  width: 235px;
+  height: 175px;
+}
+.dest-name {
+  color: #000000;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
